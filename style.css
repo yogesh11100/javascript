@@ -1,0 +1,69 @@
+.container-1,.container-2 ,.container-4,.container-5{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    justify-content: space-around; 
+}
+
+.flex-box-container-1 ,.flex-box-container-2,.flex-box-pick-color,.flex-blackjack-row-1,.flex-blackjack-row-2,.flex-blackjack-row-3
+
+{
+    border: 1px solid black;
+    padding: 10px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-blackjack-row-3{
+    padding: 20px;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    flex:1;
+    text-align: center;
+    height: 350px;
+}
+.flex-blackjack-row-1{
+    background-color: green;
+    color: honeydew;
+    /* background: url('https://www.google.com/search?q=blackjack+green+background&sxsrf=AOaemvInwlGF2FuaZHPczXqY51NTj0FYaQ:1635167673320&tbm=isch&source=iu&ictx=1&fir=T5maD-YR99DFVM%252CPimg_jqoufschM%252C_%253BVFZPE9m1juhNGM%252CfdNxk64Ht2IUJM%252C_%253BZxv4XUVYpmZ9eM%252CKRJTLad4XYGBxM%252C_%253BLni6ChfXG22ZyM%252C1dzY_N6jq8Z5RM%252C_%253BMUSiN6hPn82l8M%252C1dzY_N6jq8Z5RM%252C_%253B8cwwUv8WBtY5XM%252CcaC3hbu0tPPIYM%252C_%253BuyabD91Pe6SHwM%252ChTgfod3stnjwDM%252C_%253B_lLn7ChrN_QHIM%252CtdRd7aCVrq_nAM%252C_%253BlxREp2FPghMx7M%252CX83CMyD35RtZEM%252C_%253BY2zm1nJNkrxkSM%252ChTgfod3stnjwDM%252C_%253B1tRd_eaEUHo81M%252C2M164C9eCN6ErM%252C_%253BoNf33FrQpZipQM%252CX83CMyD35RtZEM%252C_&vet=1&usg=AI4_-kQHZ73BclWMh-XTAiEEBHmJhVBsmw&sa=X&ved=2ahUKEwivvcOi0uXzAhXsILcAHWhDDpwQ9QF6BAgGEAE#imgrc=Zxv4XUVYpmZ9eM' center); */
+}
+.flex-blackjack-row-1 img{
+    width:25%;
+    padding: 10px;
+}
+
+.flex-blackjack-row-2 div{
+    border: 1px solid black;
+
+}
+.flex-blackjack-row-2 button{
+    border:1px solid black;
+}
+table,th,td{
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+.flex-box-container-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.flex-box-container-2 img {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 10px 50px rgba(37, 56, 233, 1);
+    
+}
